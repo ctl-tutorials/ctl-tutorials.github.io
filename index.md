@@ -18,7 +18,7 @@
 4. visualize volume and projection data, and
 5. consider Poisson noise and a polychromatic spectrum in the simulations.
 
-[Source code](https://github.com/tpfeiffe/tpfeiffe.github.io/blob/master/Tutorial1/)
+[Source code](Tutorial1/)
 
 [Video](https://youtu.be/3xp7uqrE1oE)
 
@@ -35,7 +35,7 @@
 2. create fully-customizable visualizer objects, and
 3. change the verbosity of message outputs and save a log file.
 
-[Source code](https://github.com/tpfeiffe/tpfeiffe.github.io/blob/master/Tutorial2/)
+[Source code](Tutorial2/)
 
 [Video](https://youtu.be/4qrRYXtd_As)
 
@@ -53,7 +53,7 @@
     - printing and visualization
 3. find many mistakes already at compile time and prevent undefined behavior
 
-[Source code](https://github.com/tpfeiffe/tpfeiffe.github.io/blob/master/Tutorial3/)
+[Source code](Tutorial3/)
 
 [Video](https://youtu.be/Ej1j_cIYu18)
 
@@ -70,7 +70,7 @@
 2. compose volumes consisting of multiple different sub-volumes, and
 3. use a simple threshold decomposer to segment a volume into two materials.
 
-[Source code](https://github.com/tpfeiffe/tpfeiffe.github.io/blob/master/Tutorial4/)
+[Source code](Tutorial4/)
 
 [Phantom data used](https://data.stimulate.ovgu.de/f/4f1a9a146c834af3ac52/?dl=1)
 
@@ -91,7 +91,7 @@
 3. use the JSONSerializer to easily save and load entire AcquisitionSetups.
 
 
-[Source code](https://github.com/tpfeiffe/tpfeiffe.github.io/blob/master/Tutorial5/)
+[Source code](Tutorial5/)
 
 [Video](https://youtu.be/8O9pASZN8TU)
 
@@ -104,7 +104,7 @@
 |PinnedMemory			  |	allows fast efficient data transfer between host and devices 	  |
 
 
-[Source code](https://github.com/tpfeiffe/tpfeiffe.github.io/blob/master/Tutorial6/)
+[Source code](Tutorial6/)
 
 [Video - Part 1](https://youtu.be/VtTQZEOwaro)  
 [Video - Part 2](https://youtu.be/qDZmy1rzHjk)
@@ -122,7 +122,7 @@
 2. know the capabilities of built-in system components, and
 3. have a general understanding of how geometrical information is specified in the CTL.
 
-[Slides](https://github.com/tpfeiffe/tpfeiffe.github.io/blob/master/Tutorial7/tutorial7.pdf)
+[Slides](Tutorial7/tutorial7.pdf)
 
 [Video](https://youtu.be/b_hsR4o4UQ4)  
 
@@ -139,9 +139,9 @@
 2. know how to use preparation protocols to adjust the setup, and
 3. know how to manually construct an entire `AcquisitionSetup` for customized scenarios.
 
-[Source code](https://github.com/tpfeiffe/tpfeiffe.github.io/blob/master/Tutorial8/)
+[Source code](Tutorial8/)
 
-[Slides](https://github.com/tpfeiffe/tpfeiffe.github.io/blob/master/Tutorial8/slides.pdf)
+[Slides](Tutorial8/slides.pdf)
 
 [Video](https://youtu.be/0BC0EcvcTXs)
 
@@ -159,9 +159,9 @@
 2. be able to use the `FDKReconstructor` and `ARTReconstructor` classes, and
 3. know how to use the `ARTReconstructor` class in more sophisticated scenarios.
 
-[Source code](https://github.com/tpfeiffe/tpfeiffe.github.io/blob/master/Tutorial9/)
+[Source code](Tutorial9/)
 
-[Slides](https://github.com/tpfeiffe/tpfeiffe.github.io/blob/master/Tutorial9/stoppingcrit/stoppingcrit.pdf)
+[Slides](Tutorial9/stoppingcrit/stoppingcrit.pdf)
 
 [Video](https://youtu.be/OAXHxJ0a2jc)
 
