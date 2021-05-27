@@ -203,4 +203,4 @@ The example data of the flat detector setting (i.e. files fdct_xxx.den) are part
 
 [Slides](https://github.com/ctl-tutorials/ctl-tutorials.github.io/blob/main/TutorialA1/slides.pdf)
 
-[Video] (https://youtu.be/NqY1u4K_wUY)
+[Video](https://youtu.be/NqY1u4K_wUY)
