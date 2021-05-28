@@ -184,3 +184,23 @@
 The example data of the flat detector setting (i.e. files fdct_xxx.den) are part of a collaboration with the group of Prof. Dr. Thorsten Walles from the University Clinic for Cardiac and Thoracic Surgery Magdeburg.
 
 (Video) TBD
+
+
+## Tutorial A1 - Sub-classing `AbstractCTSystemBlueprint`, `AbstractDataModel`, and `AbstractPreparationProtocol`
+
+|Contents                 |                                                                         |
+|-------------------------|-------------------------------------------------------------------------|
+|Custom content I         | overview of aspects in the CTL that can be extended by custom content   |
+|Custom content II	      | creating own system blueprints, data models, and preparation protocols  |
+|De-/serialization I	  | first steps towards getting custom classes de-/serializable             |
+
+**By the end of this tutorial you will:**
+1. understand the basic principles of how extending the CTL generally works (for most parts),
+2. be able to implement you own system blueprints, data models, and preparation protocols,
+3. know how to make your custom data models de-/serializable.
+
+[Source code](https://github.com/ctl-tutorials/ctl-tutorials.github.io/blob/main/TutorialA1/)
+
+[Slides](https://github.com/ctl-tutorials/ctl-tutorials.github.io/blob/main/TutorialA1/slides.pdf)
+
+[Video](https://youtu.be/NqY1u4K_wUY)
