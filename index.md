@@ -211,7 +211,7 @@ The example data of the flat detector setting (i.e. files fdct_xxx.den) are part
 |Contents                 |                                                                         |
 |-------------------------|-------------------------------------------------------------------------|
 |Custom content III       | creating own projection and volume filters (CPU versions)               |
-|De-/serialization II     | first steps towards getting custom classes de-/serializable             |
+|De-/serialization II     | de-/serialization of types that contain poylmorphic (CTL) types         |
 
 **By the end of this tutorial you will:**
 1. be able to implement you own projection and volume filters,
