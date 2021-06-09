@@ -233,6 +233,6 @@ The example data of the flat detector setting (i.e. files fdct_xxx.den) are part
 
 [Source code](https://github.com/ctl-tutorials/ctl-tutorials.github.io/blob/main/TutorialA3/)
 
-[Raw data] (TBD)
+[Raw data](https://data.stimulate.ovgu.de/d/6071644c69bb48c28712/)
 
-[Video] (TBD)
+[Video](https://youtu.be/ktzP0xMwfF0)
