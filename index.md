@@ -220,3 +220,19 @@ The example data of the flat detector setting (i.e. files fdct_xxx.den) are part
 [Source code](https://github.com/ctl-tutorials/ctl-tutorials.github.io/blob/main/TutorialA2/)
 
 [Video](https://youtu.be/DYfe3c4lV00)
+
+
+## Tutorial A3 - Implementing a custom file IO on the example of (pure) raw data
+
+|Contents                 |                                                                         |
+|-------------------------|-------------------------------------------------------------------------|
+|Custom content IV        | implementing a custom file IO (read/write files of a particular type)   |
+
+**By the end of this tutorial you will:**
+1. be able to implement an IO class to read/write from/to files of a particular file type.
+
+[Source code](https://github.com/ctl-tutorials/ctl-tutorials.github.io/blob/main/TutorialA3/)
+
+[Raw data](https://data.stimulate.ovgu.de/d/6071644c69bb48c28712/)
+
+[Video](https://youtu.be/ktzP0xMwfF0)
