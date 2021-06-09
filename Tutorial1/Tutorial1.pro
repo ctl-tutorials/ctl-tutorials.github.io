@@ -23,6 +23,6 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-include(../ctl/modules/ctl.pri)
-include(../ctl/modules/ctl_ocl.pri)
-include(../ctl/modules/ctl_qtgui.pri)
+include(../../ctl/modules/ctl.pri)
+include(../../ctl/modules/ctl_ocl.pri)
+include(../../ctl/modules/ctl_qtgui.pri)

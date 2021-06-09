@@ -6,5 +6,5 @@ CONFIG += c++14
 
 SOURCES += main.cpp
 
-include(../ctl/modules/ctl.pri)
-include(../ctl/modules/ctl_qtgui.pri)
+include(../../ctl/modules/ctl.pri)
+include(../../ctl/modules/ctl_qtgui.pri)
