@@ -35,7 +35,6 @@ int main(int argc, char *argv[])
         tutorialA3_1();
         tutorialA3_2();
 
-
     }  catch (std::exception& err) {
         qCritical() << err.what();
     }
@@ -90,10 +89,12 @@ void tutorialA3_2()
     CTL::gui::plot(slice);
 
     // test writing and reading
-    auto P = CTL::ProjectionData(123, 45, 6); P.allocateMemory(7); P.fill(8.0f);
     const auto V = CTL::VoxelVolume<float>::cube(200, 1.0f, 1.337f);
-    testSaveLoad(P, io.makeProjectionDataIO());
-    testSaveLoad(P, 3, io.makeProjectionDataIO());
+    auto P = CTL::ProjectionData(123, 45, 6); P.allocateMemory(7); P.fill(8.0f);
+
+    const auto ioP = CTL::io::BaseTypeIO<RawDataIO<123, 45, 6*7, ushort>>();
+    testSaveLoad(P, ioP.makeProjectionDataIO());
+    testSaveLoad(P, 3, ioP.makeProjectionDataIO());
     testSaveLoad(V, ioVol.makeVolumeIO<float>());
 }
 
@@ -114,7 +115,7 @@ void testSaveLoad(const CTL::ProjectionData& projections,
                   std::unique_ptr<CTL::io::AbstractProjectionDataIO> io)
 {
     io->write(projections, "temp.bin");
-    const auto loadedData = io->readSingleView("temp.bin", viewId);
+    const auto loadedData = io->readSingleView("temp.bin", viewId, projections.dimensions().nbModules);
     const auto& originalView = projections.view(viewId);
     qInfo() << "Save/load single view - difference: " << CTL::metric::RMSE(originalView.cbegin(), originalView.cend(), loadedData.cbegin());
 }
