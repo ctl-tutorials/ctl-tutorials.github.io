@@ -233,7 +233,7 @@ The example data of the flat detector setting (i.e. files fdct_xxx.den) are part
 
 [Source code](https://github.com/ctl-tutorials/ctl-tutorials.github.io/blob/main/TutorialA2B/)
 
-[Video] (TBD)
+[Video](https://youtu.be/q6_iwvbIUAI)
 
 
 ## Tutorial A3 - Implementing a custom file IO on the example of (pure) raw data
