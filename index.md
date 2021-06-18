@@ -214,12 +214,26 @@ The example data of the flat detector setting (i.e. files fdct_xxx.den) are part
 |De-/serialization II     | de-/serialization of types that contain poylmorphic (CTL) types         |
 
 **By the end of this tutorial you will:**
-1. be able to implement you own projection and volume filters,
+1. be able to implement your own projection and volume filters,
 2. know how to make custom data types that contain poylmorphic types de-/serializable.
 
 [Source code](https://github.com/ctl-tutorials/ctl-tutorials.github.io/blob/main/TutorialA2/)
 
 [Video](https://youtu.be/DYfe3c4lV00)
+
+
+## Tutorial A2B - Creating OpenCL-based filters with `GenericOCLProjectionFilter` and `GenericOCLVolumeFilter`
+
+|Contents                 |                                                                         |
+|-------------------------|-------------------------------------------------------------------------|
+|Custom content V         | creating OpenCL-based projection and volume filters                     |
+
+**By the end of this tutorial you will:**
+1. be able to use the `GenericOCLProjectionFilter` and `GenericOCLVolumeFilter` to implement projection and volume filters that utilize OpenCL.
+
+[Source code](https://github.com/ctl-tutorials/ctl-tutorials.github.io/blob/main/TutorialA2B/)
+
+[Video](https://youtu.be/q6_iwvbIUAI)
 
 
 ## Tutorial A3 - Implementing a custom file IO on the example of (pure) raw data
