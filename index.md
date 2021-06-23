@@ -250,3 +250,20 @@ The example data of the flat detector setting (i.e. files fdct_xxx.den) are part
 [Raw data](https://data.stimulate.ovgu.de/d/6071644c69bb48c28712/)
 
 [Video](https://youtu.be/ktzP0xMwfF0)
+
+
+## Tutorial A4 - Sub-classing `ProjectorExtension`
+
+|Contents                 |                                                                         |
+|-------------------------|-------------------------------------------------------------------------|
+|Custom content VI        | implementing custom `ProjectorExtension` sub-classes                    |
+
+**By the end of this tutorial you will:**
+1. know about the two different approaches for sub-classing `ProjectorExtension`
+2. be able to implement custom `ProjectorExtension` sub-classes for both cases mentioned in 1.
+
+[Source code](https://github.com/ctl-tutorials/ctl-tutorials.github.io/blob/main/TutorialA4/)
+
+[Raw data] Download here: https://www5.cs.fau.de/research/data/digital-brain-perfusion-phantom/index.html
+
+[Video](https://youtu.be/atepObssoPY)
